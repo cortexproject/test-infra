@@ -1,2 +1,4 @@
-# test-infra
-Cortex E2E benchmarking tool
+# Corbench
+Benchmarking tool for cortex
+
+Refer to [corbench/README.md](corbench/README.md)
