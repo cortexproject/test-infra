@@ -1,4 +1,4 @@
-module test-infra
+module github.com/cortexproject/test-infra
 
 go 1.24.3
 
