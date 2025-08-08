@@ -197,7 +197,7 @@ Before starting, it would be helpful to have some sort of note taking system to 
 
 1. **GitHub Integration 1/2**:
     - First generate a GitHub auth token:
-        - Login with the [Corbench github account](https://github.com/corbench) and generate a [new auth token](https://github.com/settings/tokens).
+        - Login with the [Corbench github account](https://github.com/corbench) (the credentials to this github account can be found in my handoff doc for my internship) and generate a [new auth token](https://github.com/settings/tokens).
         Steps:
         1. After logging into the account, go to settings, then click on **Developer Settigns**. This should be near the bottom of the left hand side options.
         2. Click on **Personal access tokens** then choose **Tokens (classic)**
@@ -207,6 +207,7 @@ Before starting, it would be helpful to have some sort of note taking system to 
         6. Select the following scopes: `public_repo`, `read:org`, `write:discussion`
         7. scroll to the bottom and click **Generate token**
         8. Take note of the token as you will need it for github integration
+        9. Give the Corbench github account repository contributor permissions to allow it to send messages. (this can be done in the respository settings)
 
 2. **Main Node Pods Deployment**:
     Now we are ready to deploy the comment monitor, Prometheus, and grafana pods in the main node.
